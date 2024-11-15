@@ -105,27 +105,18 @@ goto bitbucket -> login-> create repo-> click on clone(copy url) -> paste the ur
  git pull origin main
 
 
-
-
- jenkins
-
-
+jenkins
 
  terminal
  sudo systemctl status jenkins
-
  new terminal
-
  ngrok http 8080
  here we see the status of ngrok > from that click on a forwarding link and open a link on browser or copy the link upto free.app and paste it on a browser and open it
-
-
- click on visit site
+click on visit site
  usename -> kkwagh
  password -> srv001
-
+ 
  github
-
  login on a github(on new window) > open the repo thaete we want to build on a jenkins > copu the repo/ project link from code(https)
 
  jenkins
