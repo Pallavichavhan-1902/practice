@@ -80,6 +80,84 @@ ls
 git pull origin master
 ls
 
+bitbucket
+goto bitbucket -> login-> create repo-> click on clone(copy url) -> paste the url> on terminal > password
+ how to create password
+ setting > personal bitbucket setting > app password > create app password > copy id > paste on terminal
+ goto terminal > paste the url
+ cd demo
+ touch sample.txt(add some content in file)
+ git add .
+ git commit -m "first commit"
+ git status
+ ls
+
+ git branch branch1
+ git checkout branch1
+ git status 
+ ls
+ touch sample2.txt
+ git add .
+ git commit -m "second commit"
+ git status
+ ls
+ git push origin branch1
+ git pull origin main
+
+
+
+
+ jenkins
+
+
+
+ terminal
+ sudo systemctl status jenkins
+
+ new terminal
+
+ ngrok http 8080
+ here we see the status of ngrok > from that click on a forwarding link and open a link on browser or copy the link upto free.app and paste it on a browser and open it
+
+
+ click on visit site
+ usename -> kkwagh
+ password -> srv001
+
+ github
+
+ login on a github(on new window) > open the repo thaete we want to build on a jenkins > copu the repo/ project link from code(https)
+
+ jenkins
+
+ click on new item > enter item name(eg.demo) > select freestyle project > click ok > form source code management > select git > paste the git repo Url(that copied from github) > from branches to build( write main istead of master) > from build (write main istread of master) > from build triggers slect github hook trigger for GITScm polling ->
+ click aply save
+
+
+ github
+
+ on repo -> click setting-> webboks > add webbook > on payload URL(copy thr url form jenkins or terminal upto free.app and paste here) (on this url add a github-webhook/ after free.app) > select content type (application/json) > select send me everything > click add webbok > then refresh(see green tick) > click on build now(after sucessful build) => click workspace and run the html file > optional > (found error)
+
+ click config > build steps > select execute shell > write command > cp -r */var/www/html/ > apply & save > click build Now
+ 0.0.0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
 
 
 
